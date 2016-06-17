@@ -60,13 +60,10 @@ public class CarBehaviour : MonoBehaviour, IMessageReceiver {
 }
 ```
 
-Infos zum Code:
+## General Infos
 
-Registrierung eines IMessageReceiver beim EntityManager: (Beispiel in "msg_CarBehaviour.cs")
- - Entity: EntityManager.RegisterEntity(ENTITY_NAME, this);
- - Gruppe: EntityManager.AddToGroup(GROUP_NAME, this); // ohne "group:"-prefix
+Registration of an **IMessageReceiver** to the **EntityManager**:
+ - Entity: `EntityManager.RegisterEntity(ENTITY_NAME, this);`
+ - Gruppe: `EntityManager.AddToGroup(GROUP_NAME, this);` // **Without Group Prefix**
 
-Für das abschicken einer Nachricht hat es ein Beispiel bei "msg_TimingBehaviour.cs".
-- Gruppen-Namen sind prefixed mit "group:"
-
-Der EntityManager bietet ausserdem das auslesen von registrierten Entities oder Gruppen.
+The EntityManager itself can be used as a way to get a registered GameObject or a Group of GameObjects
