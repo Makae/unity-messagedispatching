@@ -12,7 +12,7 @@ Message Behaviours implemented in Unity according to Mat Buckland
 ## Set correct Interface
 A Message Receiver has to:
  - Implement the Interface from **IMessageReceiver**
- - Register itself in the **Start()"" Method as an Entity to the EntityManager either by **group** or by **name**
+ - Register itself in the **Start()** Method as an Entity to the EntityManager either by **group** or by **name**
  
 ### Examples
 #### Self registration and Sending Messages
