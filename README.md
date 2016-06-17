@@ -17,7 +17,7 @@ A Message Receiver has to:
  - Register itself in the **Start()** Method as an Entity to the EntityManager either by **group** or by **name**
  
 ### Examples
-#### Self registration and Sending Messages
+#### Self registration and sending messages
 ```C#
 public class TimingBehaviour : MonoBehaviour, IMessageReceiver {
     public static string MSG_START = "S";
