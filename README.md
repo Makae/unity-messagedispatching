@@ -8,6 +8,8 @@ Message Behaviours implemented in Unity according to Mat Buckland
 # Usage
 - Create empty Game Object called "UnityEventRedispatcher"
 - Add Script "UnityEventRedispatcher" to the GameObject
+- Add Interface and Methods to MessageReceivers
+- Send a Message via MessageDispatcher
 
 ## Set correct Interface
 A Message Receiver has to:
